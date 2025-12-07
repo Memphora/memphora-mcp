@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "memphora-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP Server for Memphora - Add persistent memory to Claude, Cursor, and other AI assistants"
 readme = "README.md"
 license = "MIT"

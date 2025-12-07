@@ -5,7 +5,7 @@ This package provides an MCP (Model Context Protocol) server that connects
 Claude, Cursor, and other AI assistants to Memphora's memory API.
 """
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Memphora"
 
 from .server import main

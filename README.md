@@ -1,6 +1,6 @@
 # Memphora MCP Server
 
-<!-- mcp-name: io.github.memphora/memphora -->
+<!-- mcp-name: io.github.Memphora/memphora -->
 
 Add persistent memory to Claude, Cursor, Windsurf, and other AI assistants using the Model Context Protocol (MCP).
 
