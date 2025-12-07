@@ -108,7 +108,7 @@ Claude: [searches memories for context]
 |---------------------|-------------|---------|
 | `MEMPHORA_API_KEY` | Your Memphora API key | Required |
 | `MEMPHORA_USER_ID` | Unique identifier for your memories | `mcp_default_user` |
-| `MEMPHORA_API_URL` | API endpoint (for self-hosted) | `https://memphora-backend-h7h5s5lkza-uc.a.run.app/api/v1` |
+| `MEMPHORA_API_URL` | API endpoint (for self-hosted) | `https://api.memphora.ai/api/v1` |
 
 ## Using with Other MCP Clients
 

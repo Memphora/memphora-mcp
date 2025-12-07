@@ -36,7 +36,7 @@ class MemphoraClient:
         results = await client.search("What do I like?")
     """
     
-    DEFAULT_API_URL = "https://memphora-backend-h7h5s5lkza-uc.a.run.app/api/v1"
+    DEFAULT_API_URL = "https://api.memphora.ai/api/v1"
     
     def __init__(
         self,
