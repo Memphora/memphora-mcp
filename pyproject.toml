@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "memphora-mcp"
+version = "0.1.0"
+description = "MCP Server for Memphora - Add persistent memory to Claude, Cursor, and other AI assistants"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Memphora", email = "support@memphora.ai" }
+]
+keywords = ["mcp", "memphora", "memory", "ai", "claude", "llm", "context"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[project.scripts]
+memphora-mcp = "memphora_mcp.server:main"
+
+[project.urls]
+Homepage = "https://memphora.ai"
+Documentation = "https://docs.memphora.ai/mcp"
+Repository = "https://github.com/Memphora/memphora-mcp"
+Issues = "https://github.com/Memphora/memphora-mcp/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/memphora_mcp"]
