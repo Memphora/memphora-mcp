@@ -1,8 +1,20 @@
-# Memphora MCP Server
+<p align="center">
+  <img src="logo.png" alt="Memphora Logo" width="120" height="120">
+</p>
+
+<h1 align="center">Memphora MCP Server</h1>
 
 <!-- mcp-name: io.github.Memphora/memphora -->
 
-Add persistent memory to Claude, Cursor, Windsurf, and other AI assistants using the Model Context Protocol (MCP).
+<p align="center">
+  <strong>Add persistent memory to Claude, Cursor, Windsurf, and other AI assistants using the Model Context Protocol (MCP).</strong>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/memphora-mcp/"><img src="https://img.shields.io/pypi/v/memphora-mcp.svg" alt="PyPI"></a>
+  <a href="https://github.com/Memphora/memphora-mcp/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://memphora.ai"><img src="https://img.shields.io/badge/website-memphora.ai-orange.svg" alt="Website"></a>
+</p>
 
 ## What is this?
 
