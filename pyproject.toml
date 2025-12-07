@@ -40,7 +40,7 @@ memphora-mcp = "memphora_mcp.server:main"
 
 [project.urls]
 Homepage = "https://memphora.ai"
-Documentation = "https://docs.memphora.ai/mcp"
+Documentation = "https://memphora.ai/docs/mcp"
 Repository = "https://github.com/Memphora/memphora-mcp"
 Issues = "https://github.com/Memphora/memphora-mcp/issues"
 

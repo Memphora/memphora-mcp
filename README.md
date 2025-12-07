@@ -197,7 +197,7 @@ pytest tests/
 
 ## Support
 
-- Documentation: [docs.memphora.ai](https://docs.memphora.ai)
+- Documentation: [memphora.ai/docs](https://memphora.ai/docs)
 - Issues: [GitHub Issues](https://github.com/Memphora/memphora-mcp/issues)
 - Email: support@memphora.ai
 
