@@ -1,7 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.Memphora/memphora",
+  "title": "Memphora",
   "description": "Add persistent memory to AI assistants. Store and recall info across conversations.",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Memphora/memphora-mcp/main/logo.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
   "repository": {
     "url": "https://github.com/Memphora/memphora-mcp",
     "source": "github"
